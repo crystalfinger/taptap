@@ -17,7 +17,7 @@ public class MainActivity extends Activity
     }
 	public void btnHandler(View v)
 	{
-		Toast.makeText(this, "Im a toast message and love sushi 🥳", Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, "its me?really me????are you sure its???", Toast.LENGTH_SHORT).show();
 	}
 	public void exitHandler(View v)
 	{
