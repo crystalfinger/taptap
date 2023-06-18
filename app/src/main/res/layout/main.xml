@@ -29,7 +29,8 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:text="start game"
-		android:textStyle="bold"/>
+		android:textStyle="bold"
+		android:onClick="startGame"/>
 
 	<Button
 		android:layout_width="wrap_content"

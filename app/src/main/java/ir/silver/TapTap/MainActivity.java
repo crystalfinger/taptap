@@ -17,11 +17,16 @@ public class MainActivity extends Activity
     }
 	public void btnHandler(View v)
 	{
-		Toast.makeText(this, "its me?really me????are you sure its???", Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, "its me?really me????are you sure its me???", Toast.LENGTH_SHORT).show();
 	}
 	public void exitHandler(View v)
 	{
 		//Button exitBtn = (Button) findViewById(R.id.exitBtn);
 		finish();
+	}
+	public void startGame(View v)
+	{
+	 	Toast.makeText(getApplication(),"در آپدیت جدید این بخش فعال میشود️",Toast.LENGTH_LONG).show();
+		
 	}
 }
