@@ -26,7 +26,6 @@ public class MainActivity extends Activity
 	}
 	public void startGame(View v)
 	{
-	 	Toast.makeText(getApplication(),"در آپدیت جدید این بخش فعال میشود️",Toast.LENGTH_LONG).show();
-		
+		setContentView(R.layout.silver);
 	}
 }
