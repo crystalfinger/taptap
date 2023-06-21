@@ -13,18 +13,22 @@ public class SILVER extends Activity
 
 		new Handler().postDelayed(new Runnable()
 			{
+				private int hitCount;
 
+				//Create a public method to increment the hit count
+				public void incrementHitCount() {
+					hitCount++;
+				}
 				@Override
 				public void run()
 				{
 					// Your Code :
 					startActivity(new Intent(SILVER.this,MainActivity.class));
-					finish();
 
 				}
 			},
 			// SILVER TiME
-			100000);
+			10000);
 
 	}
 	
